@@ -1,0 +1,30 @@
+{
+  "name": "publish-fork",
+  "version": "1.0.0",
+  "description": "Publish fork repo to npm registry without modifying package.json",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysmood/publish-fork.git"
+  },
+  "keywords": [
+    "npm",
+    "fork",
+    "publish"
+  ],
+  "author": "ysmood.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ysmood/publish-fork/issues"
+  },
+  "homepage": "https://github.com/ysmood/publish-fork#readme",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "pkg-up": "^4.0.0"
+  }
+}
