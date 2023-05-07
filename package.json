@@ -1,6 +1,6 @@
 {
   "name": "publish-fork",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Publish fork repo to npm registry without modifying package.json",
   "main": "index.js",
   "bin": "index.js",
